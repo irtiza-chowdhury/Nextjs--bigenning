@@ -38,7 +38,7 @@ const Blog = (props) => {
                     {blogitem.metadesc.substr(0, 140)} ...
                   </p>
                 </div>
-                <Link href={`/blogpost/${blogitem.slug}`}>
+                <Link to={`/blogpost/${blogitem.slug}`}>
                   <button className="primary-button mt-[20px]">
                     read more
                   </button>
